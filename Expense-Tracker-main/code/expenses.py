@@ -5,7 +5,7 @@ def expense_info():
     name = input("Enter the name of the expense: ") 
     while True:
         try:
-            amount = float(input("Enter the amount of the expense: "))
+            amount = int(input("Enter the amount of the expense: "))
             if amount <= 0:
                 print("Amount cannot be zero or negative. Please enter a valid number.")
             else:
